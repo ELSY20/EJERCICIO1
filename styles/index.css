@@ -1,0 +1,158 @@
+body {
+  background: #f8ecd1;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background: transparent;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  height: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.header .logo {
+  height: 4rem;
+  cursor: pointer;
+}
+
+.header .logo img {
+  height: 4rem;
+}
+
+.header .sections ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.header .sections ul li {
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+  font-weight: 500;
+  list-style: none;
+}
+
+.header a{
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+  font-weight: 500;
+  list-style: none;
+}
+
+.covid{
+    padding-top: 4rem;
+   
+}
+
+.form_registro {
+    padding-top: 4rem;
+  background: #deb6ab;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form-control {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 14rem;
+}
+
+.labelFor {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.optionFor {
+  cursor: pointer;
+}
+
+.botones {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.block button {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  width: 15rem;
+  border-radius: 0.5rem;
+  background: #f8ecd1;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+thead {
+  text-align: left;
+  background-color: #f7f7f9;
+}
+
+thead th {
+  padding: 1rem 0.4rem;
+  font-weight: 500;
+  font-size: .8rem;
+  color: #9b9490;
+}
+
+tbody {
+  text-align: left;
+}
+
+tbody td {
+  padding: 1rem 0.7rem;
+  font-weight: 500;
+  font-size: .8rem;
+}
+
+tbody {
+  width: 100%;
+}
+
+.meses{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block_reporte button{
+  padding: .5rem;
+  border-radius: .5rem;
+  font-size: .6rem;
+  cursor: pointer;
+  
+}

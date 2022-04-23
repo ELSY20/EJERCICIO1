@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <H3>TALLER</H3>>
+        </div>
+        <div class="sections">
+          <ul>
+            <li><a href="/">INICIO</a></li>
+            <li><a href="./pages/reporteCasos.html">REPORTE CASOS</a></li>
+            <li><a href="./pages/reporteRecuperados.html"> REPORTE RECUPERADOS</a></li>
+            <li></li><a href="./pages/reporteDecesos.html">REPORTE DECESOS</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="covid">
+      <div class="titulo">
+        <h1>Registro De Casos</h1>
+      </div>
+      <div class="form_registro">
+        <form class="gridForm" action="">
+          <div class="data">
+            <p class="select">
+              <label class="labelFor">FECHA</label>
+              <input class="form-control" type="id" name="id" />
+            </p>
+
+            <p class="select">
+                <label class="labelFor">ID PRUEBA</label>
+                <input class="form-control" type="id" name="id" />
+              </p>
+
+            <p class="select">
+              <label for="departamento" class="labelFor"> DEPARTAMENTO </label>
+              <select
+                class="form-control"
+                id="departamento"
+                name="departamento"
+                required
+              >
+                <option class="optionFor" value=""></option>
+                <option class="optionFor" value="Amazonas">Amazonas</option>
+                <option class="optionFor" value="Antioquia">Antioquia</option>
+                <option class="optionFor" value="Arauca">Arauca</option>
+                <option class="optionFor" value="Atlántico">Atlántico</option>
+                <option class="optionFor" value="Bolívar">Bolívar</option>
+                <option class="optionFor" value="Boyacá">Boyacá</option>
+                <option class="optionFor" value="Caldas">Caldas</option>
+                <option class="optionFor" value="Caquetá">Caquetá</option>
+                <option class="optionFor" value="Casanare">Casanare</option>
+                <option class="optionFor" value="Cauca">Cauca</option>
+                <option class="optionFor" value="Cesar">Cesar</option>
+                <option class="optionFor" value="Chocó">Chocó</option>
+                <option class="optionFor" value="Córdoba">Córdoba</option>
+                <option class="optionFor" value="Cundinamarca">
+                  Cundinamarca
+                </option>
+                <option class="optionFor" value="Guainía">Guainía</option>
+                <option class="optionFor" value="Guaviare">Guaviare</option>
+                <option class="optionFor" value="Huila">Huila</option>
+                <option class="optionFor" value="La Guajira">La Guajira</option>
+                <option class="optionFor" value="Magdalena">Magdalena</option>
+                <option class="optionFor" value="Meta">Meta</option>
+                <option class="optionFor" value="Nariño">Nariño</option>
+                <option class="optionFor" value="Norte de Santander">
+                  Norte de Santander
+                </option>
+                <option class="optionFor" value="Putumayo">Putumayo</option>
+                <option class="optionFor" value="Quindío">Quindío</option>
+                <option class="optionFor" value="Risaralda">Risaralda</option>
+                <option class="optionFor" value="San Andrés y Providencia">
+                  San Andrés y Providencia
+                </option>
+                <option class="optionFor" value="Santander">Santander</option>
+                <option class="optionFor" value="Sucre">Sucre</option>
+                <option class="optionFor" value="Tolima">Tolima</option>
+                <option class="optionFor" value="Valle del Cauca">
+                  Valle del Cauca
+                </option>
+                <option class="optionFor" value="Vaupés">Vaupés</option>
+                <option class="optionFor" value="Vichada">Vichada</option>
+              </select>
+            </p>
+
+            <p class="select">
+              <label class="labelFor">CIUDAD</label>
+              <select class="form-control" id="inputCiudadLine2">
+                <option value="">-</option>
+                <option value="Arauca">Arauca</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Barranquilla">Barranquilla</option>
+                <option value="Bogotá">Bogotá</option>
+                <option value="Bucaramanga">Bucaramanga</option>
+                <option value="Cali">Cali</option>
+                <option value="Cartagena">Cartagena</option>
+                <option value="Cúcuta">Cúcuta</option>
+                <option value="Florencia">Florencia</option>
+                <option value="Ibagué">Ibagué</option>
+                <option value="Leticia">Leticia</option>
+                <option value="Manizales">Manizales</option>
+                <option value="Medellín">Medellín</option>
+                <option value="Mitú">Mitú</option>
+                <option value="Mocoa">Mocoa</option>
+                <option value="Montería">Montería</option>
+                <option value="Neiva">Neiva</option>
+                <option value="Pasto">Pasto</option>
+                <option value="Pereira">Pereira</option>
+                <option value="Popayán">Popayán</option>
+                <option value="Puerto Carreño">Puerto Carreño</option>
+                <option value="Puerto Inírida">Puerto Inírida</option>
+                <option value="Quibdó">Quibdó</option>
+                <option value="Riohacha">Riohacha</option>
+                <option value="San Andrés">San Andrés</option>
+                <option value="San José del Guaviare">
+                  San José del Guaviare
+                </option>
+                <option value="Santa Marta">Santa Marta</option>
+                <option value="Sincelejo">Sincelejo</option>
+                <option value="Tunja">Tunja</option>
+                <option value="Valledupar">Valledupar</option>
+                <option value="Villavicencio">Villavicencio</option>
+                <option value="Yopal">Yopal</option>
+              </select>
+            </p>
+
+            <p class="select">
+              <label class="labelFor">RANGO DE EDAD</label>
+              <select class="form-control" name="edad">
+                <option value="">-</option>
+                <option>Menor de 49</option>
+                <option>Mayor de 50</option>
+              </select>
+            </p>
+
+            <p class="select">
+              <label class="labelFor">CAUSA</label>
+              <select class="form-control" name="causa">
+                <option value="">-</option>
+                <option>Importado</option>
+                <option>Relacionado</option>
+                <option>En estudio</option>
+              </select>
+            </p>
+
+            <p class="select">
+              <label class="labelFor">MANEJO</label>
+              <select class="form-control" name="manejo">
+                <option value="">-</option>
+                <option>Casa</option>
+                <option>Hospital</option>
+                <option>UCI</option>
+              </select>
+            </p>
+
+            <p class="select">
+              <label class="labelFor">GENERO</label>
+              <select class="form-control" name="genero">
+                <option value="">-</option>
+                <option>Masculino</option>
+                <option>Femenino</option>
+              </select>
+            </p>
+          </div>
+
+          <div class="botones">
+            <p class="block">
+              <button>REGISTRAR CASO</button>
+            </p>
+            <p class="block">
+              <button>RECUPERADO</button>
+            </p>
+            <p class="block">
+              <button>DECESO</button>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
